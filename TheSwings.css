@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  font-family: 'Amatic SC', cursive;
+}
+
+a {
+  color:white;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid{
+  background-color: rgba(44,44,44,.1);
+}
+
+.text-xs-center{
+  color:white;
+  font-family: 'Amatic SC', cursive;
+}
+
+.title {
+  margin-top: -1%;
+  margin-bottom: 0;
+  font-size: 150px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  left: -5%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  margin-top:0;
+  margin-left: 19%;
+  width: 100%;
+  height: 54.5%;
+}
+
+.albumcover{
+  margin-right: -5%;
+  margin-left: 11%;
+  padding-right: 0;
+}
+
+.header{
+  background-color:rgba(98,98,98,0.8);
+  margin-left: 10em;
+  margin-right: 10em;
+  border-radius:20px;
+}
